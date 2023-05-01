@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "annkhodakova-qa-guru-homework-19"
+version = "0.1.0"
+description = ""
+authors = ["Ann Khodakova <annkhodakova88@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "annkhodakova_qa_guru_homework_19" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.29.0"
+pytest = "^7.3.1"
+allure-pytest = "^2.13.2"
+curlify = "^2.2.1"
+voluptuous = "^0.13.1"
+pytest-voluptuous = "^1.2.0"
+selene = "2.0.0rc2"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
