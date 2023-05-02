@@ -21,3 +21,9 @@ selene = "2.0.0rc2"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+
+[tool.pytest.ini_options]
+log_cli = 1
+log_level = "INFO"
+addopts = "-s --alluredir=allure-results"
